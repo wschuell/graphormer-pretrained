@@ -21,10 +21,10 @@ ORIGINAL_PRETRAINED_MODEL_URLS = {
 }
 
 PRETRAINED_MODEL_URLS_ALT = {
-    "pcqm4mv1_graphormer_base": "gs://molfeat-store-prod/checkpoints/graphormer/pcqm4mv1/checkpoint_best_pcqm4mv1.pt",
-    "pcqm4mv2_graphormer_base": "gs://molfeat-store-prod/checkpoints/graphormer/pcqm4mv2/checkpoint_best_pcqm4mv2.pt",
-    "oc20is2re_graphormer3d_base": "gs://molfeat-store-prod/checkpoints/graphormer/oc20is2re/checkpoint_last_oc20_is2re.pt",
-    "pcqm4mv1_graphormer_base_for_molhiv": "gs://molfeat-store-prod/checkpoints/graphormer/pcqm4mv1/checkpoint_base_preln_pcqm4mv1_for_hiv.pt",
+    "pcqm4mv1_graphormer_base": "https://fs.molfeat.datamol.io/checkpoints/graphormer/pcqm4mv1/checkpoint_best_pcqm4mv1.pt",
+    "pcqm4mv2_graphormer_base": "https://fs.molfeat.datamol.io/checkpoints/graphormer/pcqm4mv2/checkpoint_best_pcqm4mv2.pt",
+    "oc20is2re_graphormer3d_base": "https://fs.molfeat.datamol.io/checkpoints/graphormer/oc20is2re/checkpoint_last_oc20_is2re.pt",
+    "pcqm4mv1_graphormer_base_for_molhiv": "https://fs.molfeat.datamol.io/checkpoints/graphormer/pcqm4mv1/checkpoint_base_preln_pcqm4mv1_for_hiv.pt",
 }
 
 PRETRAINED_MODEL_URLS = PRETRAINED_MODEL_URLS_ALT
